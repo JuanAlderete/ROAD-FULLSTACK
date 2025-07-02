@@ -1,0 +1,71 @@
+# 🚀 API de Usuarios — Node.js + Express + TypeScript
+
+API RESTful construida con **Node.js**, **Express** y **TypeScript**, pensada para practicar estructura limpia y buenas prácticas de desarrollo backend.  
+Este proyecto es parte de mi roadmap personal para convertirme en **desarrollador fullstack**.
+
+---
+
+## ✨ Funcionalidades   
+
+✅ Crear, leer, actualizar y eliminar usuarios.  
+✅ Validación básica de datos.  
+✅ Middleware de logs.  
+✅ Manejo global de errores.  
+✅ Modularización y uso de TypeScript.
+
+---
+
+## 📁 Estructura del proyecto
+
+src/
+├── controllers/ # Lógica de negocio
+├── routes/ # Endpoints y rutas
+├── services/ # Simulación de base de datos (memoria)
+├── middlewares/ # Middlewares personalizados
+├── utils/ # Funciones auxiliares
+├── app.ts # Config principal de Express
+└── index.ts # Entrada de la app
+
+---
+
+## ⚙️ Tecnologías
+
+- **Node.js**
+- **Express**
+- **TypeScript**
+- **ts-node-dev**
+- **pnpm**
+
+---
+
+## 💻 Instalación y uso
+
+### Clonar el repo
+
+git clone https://github.com/tuusuario/mi-api-backend.git
+cd mi-api-backend
+
+### Instalar dependencias
+
+pnpm install
+
+### Configurar variables de entorno
+
+cp .env.example .env
+
+### Ejemplo de .env:
+
+PORT=3000
+
+### Iniciar en modo desarrollo
+
+pnpm dev
+
+--- 
+
+🧑‍💻 Autor
+Juan Cruz Alderete
+Frontend Developer migrando hacia Fullstack
+📍 Tandil, Buenos Aires, Argentina
+GitHub · LinkedIn
+
