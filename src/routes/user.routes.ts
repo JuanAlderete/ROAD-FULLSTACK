@@ -1,14 +1,14 @@
 const express = require('express');
 const router = express.Router();
-import { getAllUsers, getUserFromID, addUser, updateUser, deleteUser } from '../controllers/user.controller';
+import { getUsers, createUser, updateUser, deleteUser, getUserById } from '../controllers/user.controller';
 
 // RUTA DE USUARIOS
 
-router.get('/', getAllUsers);
+router.get('/', getUsers);
 
-router.get('/:id', getUserFromID);
+router.get('/:id', getUserById);
 
-router.post('/:id', addUser);
+router.post('/:id', createUser);
 
 router.put('/:id', updateUser);
 
